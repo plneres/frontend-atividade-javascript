@@ -1,0 +1,81 @@
+body {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+}
+
+.janela {
+    background-color: azure;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.titulo {
+    color: darkblue;
+    height: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.campo {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: 200px;
+    margin-bottom: 5px;
+    color: darkblue;
+}
+
+input {
+    width: 100%;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: azure;
+    background-color: darkblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(21, 21, 84);
+}
+
+button:active {
+    scale: 0.95;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: azure;
+    border-left: 5px solid cornflowerblue;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#resultado p {
+    margin: 5px 0;
+    color: darkblue;
+}

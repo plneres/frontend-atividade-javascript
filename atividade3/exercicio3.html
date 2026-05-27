@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3(Formulário)</title>
+    <link rel="stylesheet" href="exercicio3.css">
+</head>
+<body>
+    <div class="janela">
+        <div class="titulo">Formulário</div>
+        <form id="questionario">
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome"></input>
+            </div>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required placeholder="Digite seu email"></input>
+            </div>
+            <div class="campo">
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" name="curso" required placeholder="Digite seu curso"></input>
+            </div>
+            <button id="submit">Enviar</button>
+            <div id="resultado"></div>
+        </form>
+    </div>
+    <script src="exercicio3.js"></script>
+</body>
+</html>
