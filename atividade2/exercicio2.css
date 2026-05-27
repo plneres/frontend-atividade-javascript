@@ -1,0 +1,60 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.janela {
+    text-align: center;
+    background-color: azure;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+
+#cronometro {
+    font-size: 5rem;
+    font-weight: bolder;
+    margin: 20px;
+    color: rgb(5, 94, 182);
+}
+
+button {
+    padding: 15px;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    color: rgb(7, 3, 65);
+    background-color: rgb(182, 175, 168);
+    transition: background 0.2s, transform 0.1s;
+}
+
+button:active {
+    transform: scale(0.75);
+}
+
+#btn_iniciar:hover{
+    background-color: rgb(99, 99, 99);
+}
+
+#btn_pausar:hover{
+    background-color: rgb(99, 99, 99);
+}
+
+#btn_reset:hover{
+    background-color: rgb(99, 99, 99);
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(7, 3, 65);
+    margin-bottom: 20px;
+}
